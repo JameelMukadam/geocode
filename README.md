@@ -1,4 +1,4 @@
-# geocode
+# geocode [![Coverage Status](https://coveralls.io/repos/github/JameelMukadam/geocode/badge.svg?branch=master)](https://coveralls.io/github/JameelMukadam/geocode?branch=master)
 Simple wrapper for the Google geocode API
 
 ## Install
