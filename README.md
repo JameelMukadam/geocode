@@ -3,7 +3,7 @@ Simple wrapper for the Google geocode API
 
 ## Install
 
-`npm install --save geocode`
+`npm install --save geocodeAPI`
 
 ## Usage
 
