@@ -4,7 +4,8 @@
   "description": "A Simple wrapper for google's geocode API",
   "main": "index.js",
   "scripts": {
-    "test": "mocha --compilers js:babel-register --require babel-polyfill"
+    "test": "mocha --compilers js:babel-register --require babel-polyfill",
+    "coveralls": "easy-coveralls"
   },
   "repository": {
     "type": "git",
@@ -30,6 +31,7 @@
     "karma-babel-preprocessor": "^6.0.1"
   },
   "devDependencies": {
+    "easy-coveralls": "0.0.1",
     "jasmine-core": "^2.6.2",
     "karma": "^1.7.0",
     "karma-chrome-launcher": "^2.1.1",
