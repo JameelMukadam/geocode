@@ -1,0 +1,23 @@
+{
+  "name": "geocode",
+  "version": "1.0.0",
+  "description": "A Simple wrapper for google's geocode API",
+  "main": "index.js",
+  "scripts": {
+    "test": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JameelMukadam/geocode.git"
+  },
+  "keywords": [
+    "geocode",
+    "geocoding"
+  ],
+  "author": "Jameel Mukadam <Jameel@JameelMukadam.com> (https://www.JameelMukadam.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JameelMukadam/geocode/issues"
+  },
+  "homepage": "https://github.com/JameelMukadam/geocode#readme"
+}
