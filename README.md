@@ -8,7 +8,7 @@ Simple wrapper for the Google geocode API
 ## Usage
 
 
-`import geolocation fom 'geocode'`
+`import geolocation fom 'geocodeAPI'`
 
 `geolocation.setApiKey('GOOGLE_API_KEY')`
 
