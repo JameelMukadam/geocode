@@ -3,12 +3,12 @@ Simple wrapper for the Google geocode API
 
 ## Install
 
-`npm install --save geocodeAPI`
+`npm install --save geocodeapi`
 
 ## Usage
 
 
-`import geolocation fom 'geocodeAPI'`
+`import geolocation fom 'geocodeapi'`
 
 `geolocation.setApiKey('GOOGLE_API_KEY')`
 
