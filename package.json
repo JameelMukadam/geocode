@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/JameelMukadam/geocode/issues"
   },
-  "homepage": "https://github.com/JameelMukadam/geocode#readme"
+  "homepage": "https://github.com/JameelMukadam/geocode#readme",
+  "dependencies": {
+    "apisauce": "^0.13.0"
+  }
 }
