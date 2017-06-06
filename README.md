@@ -1,4 +1,4 @@
-# geocodeAPI [![Coverage Status](https://coveralls.io/repos/github/JameelMukadam/geocode/badge.svg?branch=master)](https://coveralls.io/github/JameelMukadam/geocode?branch=master) [![Build Status](https://travis-ci.org/JameelMukadam/geocode.svg?branch=master)](https://travis-ci.org/JameelMukadam/geocode) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+# geocodeAPI [![Coverage Status](https://coveralls.io/repos/github/JameelMukadam/geocode/badge.svg?branch=master)](https://coveralls.io/github/JameelMukadam/geocode?branch=master) [![Build Status](https://travis-ci.org/JameelMukadam/geocode.svg?branch=master)](https://travis-ci.org/JameelMukadam/geocode) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com) [![npm version](https://badge.fury.io/js/geocodeapi.svg)](https://badge.fury.io/js/geocodeapi)
 
 Simple wrapper for the Google geocode API
 
