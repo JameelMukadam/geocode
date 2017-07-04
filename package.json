@@ -1,11 +1,14 @@
 {
   "name": "geocodeapi",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A Simple wrapper for google's geocode API",
   "main": "index.js",
   "scripts": {
     "test": "mocha --compilers js:babel-register --require babel-polyfill",
-    "coveralls": "nyc npm test && nyc report --reporter=text-lcov | coveralls"
+    "coveralls": "nyc npm test && nyc report --reporter=text-lcov | coveralls",
+    "prepackage": "rimraf lib",
+    "package": "babel './' --out-dir 'lib' --presets=es2015 --ignore 'node_modules'",
+    "postpackage": "cd lib && yarn"
   },
   "repository": {
     "type": "git",
@@ -31,6 +34,7 @@
     "karma-babel-preprocessor": "^6.0.1"
   },
   "devDependencies": {
+    "babel-cli": "^6.24.1",
     "coveralls": "^2.13.1",
     "jasmine-core": "^2.6.2",
     "karma": "^1.7.0",
@@ -40,6 +44,7 @@
     "karma-mocha": "^1.3.0",
     "mocha": "^3.4.2",
     "mocha-lcov-reporter": "^1.3.0",
-    "nyc": "^11.0.1"
+    "nyc": "^11.0.1",
+    "rimraf": "^2.6.1"
   }
 }
