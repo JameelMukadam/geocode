@@ -2,6 +2,8 @@
 
 Simple wrapper for the Google geocode API
 
+## WARNING: This project is no longer maintained. It may or may not work. Feel free to fork it if need be.
+
 ## Install
 
 `npm install --save geocodeapi`
